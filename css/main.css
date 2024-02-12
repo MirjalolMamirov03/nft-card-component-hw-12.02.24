@@ -1,0 +1,54 @@
+@import url(../css/fonts.css);
+
+/* CUSTOM-PROPS */
+
+:root {
+    --very-dark-blue-main-bg: #0D192C;
+    --very-dark-blue-card-bg: #15263F;
+    --Soft-Blue: #8BACD9;
+    --Cyan: #00FFF8;
+    --White: #FFF;
+    --Outfit: "Outfit";
+}
+
+/* //CUSTOM-PROPS */
+
+
+/* GLOBAL-STYLES */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 152px;
+    padding-bottom: 152px;
+    background-color: var(--very-dark-blue-main-bg);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* //GLOBAL-STYLES */
+
+
