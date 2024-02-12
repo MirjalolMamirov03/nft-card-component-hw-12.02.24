@@ -7,6 +7,7 @@
     --very-dark-blue-card-bg: #15263F;
     --Soft-Blue: #8BACD9;
     --Cyan: #00FFF8;
+    --very-dark-blue-line: #2E405A;
     --White: #FFF;
     --Outfit: "Outfit";
 }
@@ -52,3 +53,125 @@ ul {
 /* //GLOBAL-STYLES */
 
 
+/* CARD-STYLE */
+
+.card {
+    width: 350px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-radius: 15px;
+    background-color: var(--very-dark-blue-card-bg);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.card-image {
+    display: block;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    background-image:  lightgray 50% / cover no-repeat;
+}
+
+.card-desc {
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.desc-title {
+    color: var(--White);
+    font-size: 22px;
+    font-family: var(--Outfit);
+    font-weight: 600;
+}
+
+.desc-text {
+    max-width: 302px;
+    width: 100%;
+    color: var(--Soft-Blue);
+    font-family: var(--Outfit);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+
+}
+
+.card-grade {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grade-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6.48px;
+}
+
+.amount-text {
+    color: var(--Cyan);
+    font-family: var(--Outfit);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.grade-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7.7px;
+}
+
+.time-text {
+    color: var(--Soft-Blue);
+    font-family: var(--Outfit);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-footer {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--very-dark-blue-line);
+}
+
+.footer-desc {
+    display: flex;
+    align-items: center;
+}
+
+.footer-image {
+    display: block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    /* border: 1px solid var(--White); */
+    margin-right: 16px;
+}
+
+.footer-creation {}
+
+.footer-name {}
+
+/* //CARD-STYLE */
