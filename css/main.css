@@ -227,7 +227,7 @@ ul {
 /* SITE-MEDIA */
    /* MOBILE-MEDIA */
 
-   @media (width: 375px) or (height: 667px) {
+   @media (max-width: 375px) or (max-height: 667px) {
     body {
         display: flex;
         flex-direction: column;
