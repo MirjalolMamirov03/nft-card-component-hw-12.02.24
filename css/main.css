@@ -77,6 +77,10 @@ ul {
     background-image:  lightgray 50% / cover no-repeat;
 }
 
+.site-image:hover {
+    cursor: pointer;
+}
+
 .card-image, .site-image:active {
     opacity: 0.503;
     background: url(../img/Eye.svg) no-repeat center center var(--Cyan);
@@ -210,5 +214,33 @@ ul {
 }
 
 
-
 /* //CARD-STYLE */
+
+
+
+
+
+
+
+
+
+/* SITE-MEDIA */
+   /* MOBILE-MEDIA */
+
+   @media (width: 375px) or (height: 667px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 62px 24px;
+        align-items: center;
+        background-color: var(--very-dark-blue-card-bg);
+    }    
+   }
+
+   /* MOBILE-MEDIA */
+
+/* SITE-MEDIA */
+
