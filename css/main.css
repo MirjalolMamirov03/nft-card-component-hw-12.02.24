@@ -69,12 +69,21 @@ ul {
     row-gap: 24px;
 }
 
-.card-image {
+.card-image, .site-image {
     display: block;
     width: 302px;
     height: 302px;
     border-radius: 8px;
     background-image:  lightgray 50% / cover no-repeat;
+}
+
+.card-image, .site-image:active {
+    opacity: 0.503;
+    background: url(../img/Eye.svg) no-repeat center center var(--Cyan);
+}
+
+.eye {
+    color: var(--White);
 }
 
 .card-desc {
@@ -93,6 +102,14 @@ ul {
     font-weight: 600;
 }
 
+.desc-title:hover {
+    cursor: pointer;
+}
+
+.desc-title:active {
+    color: var(--Cyan);
+}
+
 .desc-text {
     max-width: 302px;
     width: 100%;
@@ -101,7 +118,6 @@ ul {
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
-
 }
 
 .card-grade {
@@ -170,8 +186,29 @@ ul {
     margin-right: 16px;
 }
 
-.footer-creation {}
+.footer-creation {
+    color: var(--Soft-Blue);
+    font-family: var(--Outfit);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 5px;
+}
 
-.footer-name {}
+.footer-name {
+    color: var(--White);
+    font-family: var(--Outfit);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-name:hover {
+    cursor: pointer;
+}
+
+.footer-name:active {
+    color: var(--Cyan);
+}
+
+
 
 /* //CARD-STYLE */
